@@ -1,0 +1,2 @@
+curl -d '{"strIfsc":"ABHY0065001"}' -H 'Content-Type: application/json' http://localhost:8000/api-bankdetails/bankdetails/
+curl -d '{"strBank":"ABHYUDAYA COOPERATIVE BANK LIMITED","strCity":"MUMBAI","intLimit":10,"intOffset":"2"}' -H 'Content-Type: application/json' http://localhost:8000/api-bankdetails/banklist/
